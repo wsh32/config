@@ -4,8 +4,8 @@ if (( $EUID != 0 )); then
 fi
 
 # Update packages
-$SUDO apt-get update
-$SUDO apt-get install vim git
+$SUDO apt-get -y update
+$SUDO apt-get -y install vim git
 
 # Get .vimrc from github repo  
 wget -O ~/.vimrc https://raw.githubusercontent.com/wsh32/vim/master/.vimrc
