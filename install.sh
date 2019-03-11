@@ -14,3 +14,6 @@ wget -O ~/.vimrc https://raw.githubusercontent.com/wsh32/vim/master/.vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
+# Set vim as default git editor
+git config --global core.editor "vim"
+
