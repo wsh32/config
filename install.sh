@@ -6,6 +6,9 @@ fi
 # Update packages
 $SUDO apt-get -y update
 
+# Why isnt ifconfig a default thing
+$SUDO apt-get -y install net-tools
+
 # Terminal packages
 $SUDO apt-get -y install screen terminator
 
