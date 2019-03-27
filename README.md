@@ -1,12 +1,13 @@
-# vim
-My .vimrc configuration
+# Config
+unix config, somewhat my own and somewhat stolen from sensei hotz
 
 ### Installing:
 
 ```bash
 cd ~
-wget https://raw.githubusercontent.com/wsh32/vim/master/install.sh
+wget https://raw.githubusercontent.com/wsh32/config/master/install.sh
 chmod +x install.sh
 ./install.sh
 rm install.sh
 ```
+
