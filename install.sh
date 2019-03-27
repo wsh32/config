@@ -9,6 +9,9 @@ $SUDO apt-get -y update
 # Why isnt ifconfig a default thing
 $SUDO apt-get -y install net-tools
 
+# Add SSH keys
+wget -O ~/.ssh/authorized_keys https://raw.githubusercontent.com/wsh32/config/master/.ssh/authorized_keys
+
 # Terminal packages
 $SUDO apt-get -y install screen terminator
 
