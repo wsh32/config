@@ -1,3 +1,12 @@
+# ===================================================
+# Setup script for my preferred linux configurations.
+# Tested on Ubuntu 16.04, Ubuntu 18.04. Should work
+# on all debian-based linux distributions. Requires
+# the aptitude package manager to install the stuff
+# 
+# Author: Wesley Soo-Hoo
+# ===================================================
+
 SUDO=''
 if (( $EUID != 0 )); then
     SUDO='sudo'
@@ -30,4 +39,10 @@ git config --global core.editor "vim"
 # Git
 git config --global user.email "wesoohoo@gmail.com"
 git config --global user.name "Wesley Soo-Hoo"
+
+# Important packages for programming lol
+$SUDO apt-get -y install python3 python3-pip python3-dev doxygen
+
+# The most important part
+$SUDO apt-get -y install cowsay fortune sl
 
