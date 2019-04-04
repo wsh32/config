@@ -35,15 +35,12 @@ nnoremap <space> za
 nnoremap <C-@> i
 inoremap <C-@> <Esc>
 
-au BufNewFile,BufRead *.py
-    \ set tabstop=4 |
-    \ set softtabstop=4 |
-    \ set shiftwidth=4 |
-    \ set expandtab |
-    \ set autoindent |
-    \ set fileformat=unix |
-
-autocmd Filetype cpp setlocal expandtab tabstop=4 shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set fileformat=unix
 
 Plugin 'vim-scripts/indentpython.vim'
 
