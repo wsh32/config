@@ -10,6 +10,7 @@ wget -O ~/.ssh/authorized_keys https://raw.githubusercontent.com/wsh32/config/ma
 wget -O ~/.screenrc https://raw.githubusercontent.com/wsh32/config/master/.screenrc
 
 # update vim config
-wget -O ~/.vimrc https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+wget -O ~/.vimrc https://raw.githubusercontent.com/wsh32/config/master/.vimrc
+
 # vundle plugin update
 vim +PluginInstall +qall
