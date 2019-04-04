@@ -37,8 +37,15 @@ vim +PluginInstall +qall
 git config --global core.editor "vim"
 
 # Git
-git config --global user.email "wesoohoo@gmail.com"
-git config --global user.name "Wesley Soo-Hoo"
+# Uncomment these to set git config values
+#EMAIL='wesoohoo@gmail.com'
+#NAME='Wesley Soo-Hoo'
+
+if [[ -v EMAIL ]] && [[ -v NAME ]];
+then
+	git config --global user.email "$EMAIL"
+	git config --global user.name "$NAME"
+fi
 
 # Important packages for programming lol
 $SUDO apt-get -y install python3 python3-pip python3-dev doxygen
