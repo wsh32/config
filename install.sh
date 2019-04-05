@@ -53,6 +53,7 @@ then
 	git config --global user.email "$EMAIL"
 	git config --global user.name "$NAME"
 fi
+git config --global alias.lgb "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches"
 
 # Important packages for programming lol
 $SUDO apt-get -y install python3 python3-pip python3-dev doxygen
