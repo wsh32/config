@@ -3,14 +3,23 @@ if (( $EUID != 0 )); then
 	SUDO='sudo'
 fi
 
+# Get most recent updates
+echo "Getting most recent config files..."
+git pull
+
 # update SSH keys
-wget -O ~/.ssh/authorized_keys https://raw.githubusercontent.com/wsh32/config/master/.ssh/authorized_keys
+echo "Updating ssh authorized keys"
+cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
 
 # update screen config
-wget -O ~/.screenrc https://raw.githubusercontent.com/wsh32/config/master/.screenrc
+echo "Updating screenrc config"
+cp ./.screenrc ~/.screenrc
 
 # update vim config
-wget -O ~/.vimrc https://raw.githubusercontent.com/wsh32/config/master/.vimrc
+echo "Updating vimrc config"
+cp ./.vimrc ~/.vimrc
 
 # vundle plugin update
 vim +PluginInstall +qall
+
+echo "Done!"

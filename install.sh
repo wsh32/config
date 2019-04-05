@@ -18,18 +18,25 @@ $SUDO apt-get -y update
 # Why isnt ifconfig a default thing
 $SUDO apt-get -y install net-tools
 
+# Get most recent config files
+echo "Getting most recent config files..."
+git pull
+
 # Add SSH keys
-wget -O ~/.ssh/authorized_keys https://raw.githubusercontent.com/wsh32/config/master/.ssh/authorized_keys
+echo "Updating ssh authorized keys"
+cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
 
 # Terminal packages
 $SUDO apt-get -y install screen terminator
 
 # Screen config
-wget -O ~/.screenrc https://raw.githubusercontent.com/wsh32/config/master/.screenrc
+echo "Updating screenrc config"
+cp ./.screenrc ~/.screenrc
 
 # Vim
+echo "Updating vimrc config"
 $SUDO apt-get -y install vim git
-wget -O ~/.vimrc https://raw.githubusercontent.com/wsh32/config/master/.vimrc
+cp ./.vimrc ~/.vimrc
 # Get Vundle and install plugins
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
