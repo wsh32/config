@@ -58,6 +58,12 @@ git config --global alias.lgb "log --graph --pretty=format:'%Cred%h%Creset -%C(y
 # Important packages for programming lol
 $SUDO apt-get -y install python3 python3-pip python3-dev doxygen
 
+# The fuck? https://github.com/nvbn/thefuck/
+$SUDO pip3 install thefuck
+cp ~/.bashrc ~/.bashrc.bak
+echo 'eval $(thefuck --alias)' >> ~/.bashrc
+source ~/.bashrc
+
 # The most important part
 $SUDO apt-get -y install cowsay fortune sl
 
