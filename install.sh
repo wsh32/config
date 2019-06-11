@@ -65,5 +65,5 @@ echo 'eval $(thefuck --alias)' >> ~/.bashrc
 source ~/.bashrc
 
 # The most important part
-$SUDO apt-get -y install cowsay fortune sl
+$SUDO apt-get -y install cowsay fortune sl lolcat
 
