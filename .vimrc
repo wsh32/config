@@ -76,3 +76,7 @@ set textwidth=0 wrapmargin=0
 colorscheme elflord
 
 set nomodeline  " https://threatpost.com/linux-command-line-editors-high-severity-bug/145569/
+
+" Better searching
+set incsearch
+set hlsearch
