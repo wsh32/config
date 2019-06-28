@@ -50,6 +50,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 # Set vim as default git editor
 git config --global core.editor "vim"
+# Let git save passwords
+git config --global credential.helper store
 
 # Git
 if [[ -v EMAIL ]] && [[ -v NAME ]];
