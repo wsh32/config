@@ -1,8 +1,9 @@
 # ===================================================
 # Setup script for my preferred linux configurations.
-# Tested on Ubuntu 16.04, Ubuntu 18.04. Should work
-# on all debian-based linux distributions. Requires
-# the aptitude package manager to install the stuff
+# Automatically detects linux distribution and uses
+# the supported package managers to setup everything.
+# Currently only tested on Ubuntu 16.04 and 18.04 and
+# limited support on Manjaro 1804.
 # 
 # Author: Wesley Soo-Hoo
 # ===================================================
@@ -15,9 +16,17 @@ if (( $EUID != 0 )); then
     SUDO='sudo'
 fi
 
-# Set package manager to use
-#MANAGER='apt'
-#MANAGER='pacman'
+# Automatic detection of package manager
+if [[ $(cat /etc/os-release | grep Ubuntu | wc -l ) != 0 ]]; then
+    OS='ubuntu'
+    MANAGER='apt'
+elif [[ $(cat /etc/os-release | grep Manjaro | wc -l ) != 0 ]]; then
+    OS='manjaro'
+    MANAGER='pacman'
+else
+    echo "Unsupported OS!"
+    exit 1;
+fi
 
 declare -A AVAILABLE_MANAGERS
 AVAILABLE_MANAGERS=(
