@@ -1,0 +1,8 @@
+alias py='python'
+alias la='ls -a'
+alias l='ls'
+
+alias termbin='nc termbin.com 9999'
+alias ydl='youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best''
+
+alias sl='sl -al | lolcat'
