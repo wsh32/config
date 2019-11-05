@@ -1,3 +1,4 @@
+set t_Co=256
 set nocompatible              " required
 filetype off                  " required
 
@@ -53,6 +54,7 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 
 let python_highlight_all=1
+let g:syntastic_python_pylint_post_args="--max-line-length=120"
 syntax on
 
 Plugin 'kien/ctrlp.vim'
@@ -78,5 +80,12 @@ colorscheme elflord
 set nomodeline  " https://threatpost.com/linux-command-line-editors-high-severity-bug/145569/
 
 " Better searching
+set ignorecase
+set smartcase
 set incsearch
 set hlsearch
+
+Plugin 'Shougo/unite.vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+
