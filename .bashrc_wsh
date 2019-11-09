@@ -1,0 +1,10 @@
+# use vim not nano
+export EDITOR=/usr/bin/vim
+
+source ~/.bash_alias
+
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/share/powerline/bindings/bash/powerline.sh
+
