@@ -1,4 +1,3 @@
-set t_Co=256
 set nocompatible              " required
 filetype off                  " required
 
