@@ -37,6 +37,12 @@ cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
 # Terminal packages
 $SUDO apt-get -y install screen terminator
 
+# Bash config
+cp ~/.bashrc ~/.bashrc.bak
+cp ./.bashrc_wsh ~
+cp ./.bash_alias ~
+echo "source ~/.bashrc_wsh" >> ~/.bashrc
+
 # Screen config
 echo "Updating screenrc config"
 cp ./.screenrc ~/.screenrc
@@ -52,6 +58,8 @@ vim +PluginInstall +qall
 git config --global core.editor "vim"
 # Let git save passwords
 git config --global credential.helper store
+# git autocorrect
+git config --global help.autocorrect 10
 
 # Git
 if [[ -v EMAIL ]] && [[ -v NAME ]];
@@ -62,7 +70,7 @@ fi
 git config --global alias.lgb "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches"
 
 # SSH
-$SUDO apt-get install openssh-server
+$SUDO apt-get install -y openssh-server
 if [[ -v SSH ]] && [[ $SSH -eq 1 ]];
 then
 	$SUDO systemctl enable ssh.service
