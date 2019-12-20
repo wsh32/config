@@ -14,8 +14,8 @@ if (( $EUID != 0 )); then
 fi
 
 # Uncomment these to set git config values
-#EMAIL='wesoohoo@gmail.com'
-#NAME='Wesley Soo-Hoo'
+EMAIL='soohoo@motivo.com'
+NAME='Wesley Soo-Hoo'
 
 # Uncomment this line to enable SSH or run with SSH=1
 #SSH=1
@@ -33,6 +33,13 @@ git pull
 # Add SSH keys
 echo "Updating ssh authorized keys"
 cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
+
+# Generate SSH key
+$SUDO apt-get -y install xclip
+echo "Generating ssh key..."
+ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N ""
+xclip -sel clip ~/.ssh/id_rsa.pub
+echo "SSH Key copied to clipboard"
 
 # Terminal packages
 $SUDO apt-get -y install screen terminator
