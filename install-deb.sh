@@ -14,8 +14,8 @@ if (( $EUID != 0 )); then
 fi
 
 # Uncomment these to set git config values
-EMAIL='soohoo@motivo.com'
-NAME='Wesley Soo-Hoo'
+#EMAIL='wesoohoo@gmail.com'
+#NAME='Wesley Soo-Hoo'
 
 # Uncomment this line to enable SSH or run with SSH=1
 #SSH=1
@@ -34,15 +34,8 @@ git pull
 echo "Updating ssh authorized keys"
 cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
 
-# Generate SSH key
-$SUDO apt-get -y install xclip
-echo "Generating ssh key..."
-ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N ""
-xclip -sel clip ~/.ssh/id_rsa.pub
-echo "SSH Key copied to clipboard"
-
 # Terminal packages
-$SUDO apt-get -y install screen terminator
+$SUDO apt-get -y install screen terminator powerline
 
 # Bash config
 cp ~/.bashrc ~/.bashrc.bak
@@ -83,6 +76,15 @@ then
 	$SUDO systemctl enable ssh.service
 	$SUDO systemctl start ssh.service
 fi
+
+$SUDO apt-get install -y xclip
+if [ ! -f "~/.ssh/id_rsa" ];
+then
+    echo "Generating SSH key..."
+    ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N ""
+fi
+xclip -sel clip ~/.ssh/id_rsa.pub
+echo "SSH key copied to clipboard"
 
 # Important packages for programming lol
 $SUDO apt-get -y install python3 python3-pip python3-dev doxygen
