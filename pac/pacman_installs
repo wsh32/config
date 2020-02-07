@@ -1,339 +1,386 @@
-acpi
-acpid
-adwaita-icon-theme
-alsa-firmware
-alsa-utils
-arduino
-autoconf
-automake
-avahi
-avr-gcc
-avr-gdb
-avr-libc
-avrdude
-b43-fwcutter
-baobab
-bash
-binutils
-bison
-btrfs-progs
-bumblebee
-bzip2
-ccache
-clang
-code
-coreutils
-cowsay
-cpupower
-crda
-cronie
-cryptsetup
-dconf-editor
-device-mapper
-dhclient
-dhcpcd
-dialog
-diffutils
-discord
-dkms
-dmidecode
-dmraid
-dnsmasq
-dosfstools
-e2fsprogs
-ecryptfs-utils
-efibootmgr
-empathy
-evince
-evolution
-exfat-utils
-f2fs-tools
-ffmpegthumbnailer
-file
-file-roller
-filesystem
-findutils
-firefox
-flameshot
-flatpak
-flex
-fortune-mod
-fprintd
-freerdp
-gawk
-gcc
-gcc-libs
-gdb
-gdm
-gedit
-gettext
-gimp
-git-lfs
-glibc
-gnome-backgrounds
-gnome-calculator
-gnome-calendar
-gnome-characters
-gnome-clocks
-gnome-contacts
-gnome-control-center
-gnome-desktop
-gnome-disk-utility
-gnome-font-viewer
-gnome-getting-started-docs
-gnome-keyring
-gnome-maps
-gnome-mines
-gnome-notes
-gnome-online-accounts
-gnome-screenshot
-gnome-session
-gnome-settings-daemon
-gnome-shell
-gnome-shell-extension-gsconnect
-gnome-shell-extensions
-gnome-system-log
-gnome-system-monitor
-gnome-terminal
-gnome-themes-extra
-gnome-todo
-gnome-tweaks
-gnome-user-docs
-gnome-user-share
-gnome-wallpapers
-gnome-weather
-gnu-netcat
-gnuplot
-gparted
-gperf
-grep
-grilo-plugins
-grub
-grub-customizer
-grub-theme-manjaro
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gthumb
-gtk3
-gtksourceview-pkgbuild
-gufw
-gvfs
-gvfs-afc
-gvfs-google
-gvfs-mtp
-gvfs-smb
-gzip
-haveged
-hexchat
-icon-naming-utils
-illyria-wallpaper
-imagewriter
-inetutils
-intel-ucode
-intltool
-inxi
-iproute2
-iptables
-iputils
-ipw2100-fw
-ipw2200-fw
-jfsutils
-jre8-openjdk
-jre8-openjdk-headless
-kernel-alive
-kicad
-kicad-library
-kicad-library-3d
-less
-lib32-mesa-demos
-lib32-nvidia-430xx-utils
-lib32-primus
-libc++
-libdvdcss
-libreoffice-still
-licenses
-linux-firmware
-linux419
-linux419-bbswitch
-linux419-nvidia-430xx
-linux53
-linux53-bbswitch
-linux53-headers
-linux53-nvidia-430xx
-llvm
-logrotate
-lolcat
-lollypop
-lrzip
-lsb-release
-lvm2
-m4
-make
-man-db
-man-pages
-manjaro-alsa
-manjaro-application-utility
-manjaro-artwork
-manjaro-aur-support
-manjaro-browser-settings
-manjaro-documentation-en
-manjaro-firmware
-manjaro-gdm-theme
-manjaro-gnome-assets
-manjaro-gnome-vanilla
-manjaro-hello
-manjaro-hotfixes
-manjaro-printer
-manjaro-pulse
-manjaro-release
-manjaro-settings-manager-notifier
-manjaro-system
-manjaro-wallpapers-18.0
-mc
-mdadm
-memtest86+
-mesa-demos
-mhwd
-mhwd-db
-mhwd-tui
-mkinitcpio-openswap
-mobile-broadband-provider-info
-modemmanager
-mosh
-mousetweaks
-mutter
-nano
-nautilus
-nautilus-admin
-nautilus-empty-file
-net-tools
-netctl
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nfs-utils
-ninja
-nmap
-npm
-nss-mdns
-ntfs-3g
-ntp
-numlockx
-nvidia-430xx-utils
-openresolv
-openssh
-os-prober
-p7zip
-pacaur
-package-query
-pacman
-pacui
-pamac-gtk
-pandoc
-papirus-maia-icon-theme
-patch
-pavucontrol
-pciutils
-perl
-picocom
-polkit-gnome
-powerline
-powertop
-procps-ng
-prusa-slicer
-psmisc
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
-pv
-python-pip
-reiserfsprogs
-remmina
-rsync
-s-nail
-screen
-seahorse
-sed
-shadow
-simple-scan
-sl
-spectre-meltdown-checker
-steam-manjaro
-stlink
-sudo
-sushi
-sysfsutils
-systemd-fsck-silent
-systemd-sysvcompat
-tar
-telegram-desktop
-telepathy-accounts-signon
-terminator
-terminus-font
-texinfo
-texlive-bibtexextra
-texlive-core
-texlive-fontsextra
-texlive-formatsextra
-texlive-games
-texlive-humanities
-texlive-latexextra
-texlive-music
-texlive-pictures
-texlive-pstricks
-texlive-publishers
-texlive-science
-timeshift
-tlp
-tlpui
-totem
-tracker
-tracker-miners
-transmission-gtk
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-uget
-unace
-unrar
-usb_modeswitch
-usbutils
-util-linux
-vi
-vim
-vino
-vlc
-wallpapers-2018
-wget
-which
-wpa_supplicant
-xdg-su
-xdg-user-dirs
-xdg-user-dirs-gtk
-xdg-utils
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-void
-xf86-input-wacom
-xf86-video-intel
-xfsprogs
-xorg-server
-xorg-twm
-xorg-xinit
-xscreensaver
-xsel
-yajl
-yelp
-youtube-dl
-zsh
+acpi 1.7-2
+acpid 2.0.32-1
+acroread 9.5.5-11
+adwaita-icon-theme 3.34.3-1
+alsa-firmware 1.2.1-1
+alsa-utils 1.2.1-1
+arch-install-scripts 23-1
+arduino 1:1.8.9-2
+arduino-avr-core 1.6.23-1
+arduino-cli 0.7.2-1
+arm-none-eabi-gcc 9.2.0-1
+arm-none-eabi-gdb 8.3.1-2
+arm-none-eabi-newlib 3.1.0-2
+autoconf 2.69-6
+automake 1.16.1-2
+avahi 0.7+18+g1b5f401-3
+avr-gcc 9.2.0-1
+avr-gdb 8.3.1-2
+avr-libc 2.0.0-3
+avrdude 1:6.3-6
+b43-fwcutter 019-3
+baobab 3.34.0-1
+bash 5.0.011-2
+binutils 2.33.1-2
+bison 3.5-1
+btrfs-progs 5.4-1
+bumblebee 3.2.1-22
+bzip2 1.0.8-3
+catt 0.10.2-1
+ccache 3.7.6-1
+clang 9.0.0-3
+clion 1:2019.3-1
+code 1.41.1-1
+colorpicker 1.0.f5d441a-2
+coreutils 8.31-3
+cowsay 3.04-1
+cpupower 5.4-3
+crda 4.14-3
+cronie 1.5.5-1
+cryptsetup 2.2.2-1.1
+dconf-editor 3.34.2-1
+debootstrap 1.0.116-1
+deja-dup 40.5-1
+device-mapper 2.02.186-4
+dhclient 4.4.1-4
+dhcpcd 8.1.4-1
+dialog 1:1.3_20191210-1
+diffutils 3.7-3
+digikey-kicad-library-git r226.ecfe334-1
+digilent.waveforms 3.10.9-1
+discord 0.0.9-5
+dkms 2.8.1-1
+dmidecode 3.2-1
+dmraid 1.0.0.rc16.3-12
+dnsmasq 2.80-4
+dosfstools 4.1-3
+e2fsprogs 1.45.4-2
+ecryptfs-utils 111-3
+efibootmgr 16-2
+empathy 3.25.90+34+g78f4d4fda-3
+evince 3.34.2-1
+evolution 3.34.2-1
+exfat-utils 1.3.0-1
+f2fs-tools 1.13.0-1
+ffmpegthumbnailer 2.2.2-1
+figma-bin 0.5.7-1
+file 5.37-5
+file-roller 3.32.3-1
+filesystem 2019.10-4
+findutils 4.7.0-2
+firefox 71.0-1
+flameshot 0.6.0-3
+flatpak 1.6.0-1
+flex 2.6.4-3
+fortune-mod 2.10.0-2
+fprintd 0.9.0-1
+freerdp 1:2.0.0_rc4-7
+gawk 5.0.1-2
+gcc 9.2.0-4
+gcc-libs 9.2.0-4
+gdb 8.3.1-4
+gdm-prime 3.34.1-1
+gedit 3.34.1-1
+gettext 0.20.1-3
+gimp 2.10.14-1
+git-lfs 2.9.2-1
+glibc 2.30-3
+gnome-backgrounds 3.34.0-1
+gnome-calculator 3.34.1-1
+gnome-calendar 3.34.2-1
+gnome-characters 3.32.1-1
+gnome-clocks 3.34.0-1
+gnome-contacts 3.34-1
+gnome-control-center 3.34.2-1
+gnome-desktop 1:3.34.2-1
+gnome-disk-utility 3.34.0-2
+gnome-font-viewer 3.34.0-1
+gnome-getting-started-docs 3.34.1-1
+gnome-keyring 1:3.34.0-2
+gnome-maps 3.34.2-1
+gnome-mines 3.34.0-1
+gnome-notes 3.34.1-1
+gnome-online-accounts 3.34.1-1
+gnome-screenshot 3.34.0-1
+gnome-session 3.34.2-1
+gnome-settings-daemon 3.34.2-1
+gnome-shell 1:3.34.2-1
+gnome-shell-extension-drop-down-terminal 23-1
+gnome-shell-extension-gsconnect 30-1
+gnome-shell-extension-manjaro-update 7-2
+gnome-shell-extensions 3.34.2-1
+gnome-system-log 3.9.90+160+g4b07190-1
+gnome-system-monitor 3.32.1-1
+gnome-terminal 3.34.2-1
+gnome-themes-extra 3.28-1
+gnome-todo 3.28.1+22+gd56e14e-1
+gnome-tweaks 3.34.0-2
+gnome-user-docs 3.34.1-1
+gnome-user-share 3.34.0-1
+gnome-wallpapers 20180516-1
+gnome-weather 3.34.0-1
+gnu-netcat 0.7.1-7
+gnuplot 5.2.8-1
+gparted 1.0.0-1
+gperf 3.1-2
+grep 3.3-3
+grilo-plugins 0.3.10-1
+grub 2.04-9
+grub-customizer 5.1.0-1
+grub-theme-manjaro 18.1-1
+gst-libav 1.16.2-1
+gst-plugins-bad 1.16.2-1
+gst-plugins-base 1.16.2-1
+gst-plugins-good 1.16.2-1
+gst-plugins-ugly 1.16.2-1
+gthumb 3.8.3-1
+gtk3 1:3.24.13-1
+gtksourceview-pkgbuild 4-2
+gufw 19.10.0-2
+gvfs 1.42.2-1
+gvfs-afc 1.42.2-1
+gvfs-google 1.42.2-1
+gvfs-mtp 1.42.2-1
+gvfs-smb 1.42.2-1
+gzip 1.10-3
+haveged 1.9.8-1
+hexchat 2.14.3-1
+icon-naming-utils 0.8.90-4
+ignition-cmake-0 0.6.1-2
+ignition-math-4 4.0.0-2
+ignition-msgs-1 1.0.0-2
+ignition-transport-4 4.0.0-2
+illyria-wallpaper 1.4-1
+imagewriter 1.10.1420800585.134a9b3-4
+inetutils 1.9.4-8
+intel-ucode 20191115-3
+intltool 0.51.0-4
+inxi 3.0.37-1
+iproute2 5.4.0-1
+iptables 1:1.8.3-3
+iputils 20190709-2
+ipw2100-fw 1.3-10
+ipw2200-fw 3.1-8
+jetbrains-toolbox 1.16.6067-1
+jfsutils 1.1.15-7
+jlink-software-and-documentation 21:6.54c-0
+jre11-openjdk 11.0.6.u10-1
+jre11-openjdk-headless 11.0.6.u10-1
+jre8-openjdk 8.u232-1
+jre8-openjdk-headless 8.u232-1
+kdenlive 19.12.0-1
+kernel-alive 0.4-1
+kicad 5.1.5-1
+kicad-footprints 5.1.0-1
+kicad-library 5.1.5-1
+kicad-library-3d 5.1.5-1
+less 551-3
+lib32-mesa-demos 8.4.0-1
+lib32-nvidia-430xx-utils 430.64-1
+lib32-primus 20151110-4
+libc++ 8.0.1-1.0
+libdvdcss 1.4.2-1
+libreoffice-still 6.2.8-3
+libselinux 3.0-1
+licenses 20191011-2
+linux-firmware 20191220.6871bff-1
+linux419 4.19.91-1
+linux419-bbswitch 0.8-81
+linux419-nvidia-430xx 430.64-9
+linux53 5.3.18-1
+linux53-bbswitch 0.8-19
+linux53-headers 5.3.18-1
+linux53-nvidia-430xx 430.64-8
+linux53-virtualbox-host-modules 6.1.0-4
+llvm 9.0.0-4
+logrotate 3.15.1-2
+lolcat 100.0.0-1
+lollypop 1.2.16-1
+lrzip 0.631-2
+lsb-release 1.4-13
+lvm2 2.02.186-4
+m4 1.4.18-3
+make 4.2.1-4
+man-db 2.9.0-1
+man-pages 5.04-2
+manjaro-alsa 2012.11-1
+manjaro-application-utility 1.2.2-2
+manjaro-artwork 1.0.8-4
+manjaro-aur-support 0.6-3
+manjaro-browser-settings 20181222-1
+manjaro-documentation-en 20181009-1
+manjaro-firmware 20160419-1
+manjaro-gdm-check 20180419-1
+manjaro-gdm-theme 20190929-1
+manjaro-gnome-assets 20191025-1
+manjaro-gnome-vanilla 0.2-1
+manjaro-hello 0.6.3-3
+manjaro-hotfixes 2018.08-6
+manjaro-printer 20170501-1
+manjaro-pulse 2012.11-1
+manjaro-release 18.1.5-1
+manjaro-settings-manager-notifier 0.5.6-6
+manjaro-system 20191210-4
+manjaro-wallpapers-18.0 1.4-3
+matlab-support 9.5.0-3
+mc 4.8.23-1
+mdadm 4.1-2
+memtest86+ 5.01-3
+mesa-demos 8.4.0-2
+mhwd 0.6.3-15
+mhwd-db 0.6.3-16
+mhwd-tui 0.4-1
+mkinitcpio-openswap 0.1.0-3
+mobile-broadband-provider-info 20190618-1
+modemmanager 1.12.2-1
+mosh 1.3.2-11
+mousetweaks 3.32.0-1
+mutter 3.34.2-1
+nano 4.7-1
+nautilus 3.34.2-1
+nautilus-admin 1.1.9-1
+nautilus-empty-file 1.2-1
+ncurses5-compat-libs 6.1-1
+net-tools 1.60.20181103git-2
+netctl 1.20-2
+networkmanager 1.20.9dev+19+gcbb1ad1ba-1
+networkmanager-openconnect 1.2.6-1
+networkmanager-openvpn 1.8.10-1
+networkmanager-pptp 1.2.9dev+10+gb41b0d0-1
+networkmanager-vpnc 1.2.7dev+20+gdca3aea-1
+nfs-utils 2.4.2-1
+ninja 1.9.0-2
+nmap 7.80-1
+nodejs 13.7.0-1
+npm 6.13.4-1
+nss-mdns 0.14.1-2
+ntfs-3g 2017.3.23-3
+ntp 4.2.8.p13-2
+numlockx 1.2-4
+nvidia-430xx-utils 430.64-1
+openresolv 3.9.2-2
+openssh 8.1p1-2
+optimus-manager 1.2.2-2.2
+os-prober 1.77-1
+p7zip 16.02-5
+pacaur 4.8.6-1
+package-query 1.10-1
+pacman 5.2.1-2
+pacui 1.12-1
+pamac-gtk 9.2.2-1
+pandoc 2.8-4
+paper-icon-theme-git 746.04115106-1
+papirus-maia-icon-theme 20190726-1
+patch 2.7.6-8
+pavucontrol 1:4.0-1
+pciutils 3.6.2-2
+perl 5.30.1-1
+picocom 3.1-1
+polkit-gnome 0.105-4
+powerline 2.7-4
+powertop 2.11-1
+procps-ng 3.3.15-2
+prusa-slicer 2.1.1-1
+psmisc 23.3-2
+pulseaudio-bluetooth 13.0-2
+pulseaudio-ctl 1.67-1
+pulseaudio-zeroconf 13.0-2
+pv 1.6.6-2
+pycharm-professional 2019.2.5-1
+python-pip 19.2.3-3
+reiserfsprogs 3.6.27-3
+remmina 1:1.3.9-1
+rsync 3.1.3-1
+s-nail 14.9.15-3
+saleae-logic 1.2.18-1
+screen 4.7.0-1
+sdformat-6 6.2.0-3
+seahorse 1:3.34-2
+sed 4.7-3
+shadow 4.8-1
+simple-scan 3.34.2-1
+sl 5.02-5
+slack-desktop 4.1.2-2
+solaar 1.0.1-3
+spectre-meltdown-checker 0.43-1
+spotify 1:1.1.10.546-1
+steam-manjaro 1.0.0.61-7
+stlink 1.5.1-1
+stm32cubemx 5.4.0-1
+sudo 1.8.29-1
+sushi 3.34.0-1
+sysfsutils 2.1.0-11
+systemd-fsck-silent 239-1
+systemd-sysvcompat 242.153-2
+tar 1.32-3
+telegram-desktop 1.8.15-4
+telepathy-accounts-signon 2.1-1
+terminator 1.91-6
+terminus-font 4.48-1
+texinfo 6.7-2
+texlive-bibtexextra 2019.52577-1
+texlive-core 2019.52579-1
+texlive-fontsextra 2019.52580-1
+texlive-formatsextra 2019.51280-1
+texlive-games 2019.52525-1
+texlive-humanities 2019.52574-1
+texlive-latexextra 2019.52575-1
+texlive-music 2019.52275-1
+texlive-pictures 2019.52499-1
+texlive-pstricks 2019.52550-1
+texlive-publishers 2019.52538-1
+texlive-science 2019.52582-1
+timeshift 19.08.1-3
+tlp 1.2.2-1.1
+tlpui r110.372463b-1
+totem 3.34.1-1
+tracker 2.3.0-2
+tracker-miners 2.3.0-2
+transmission-gtk 2.94-2
+ttf-bitstream-vera 1.10-12
+ttf-dejavu 2.37-2
+ttf-droid 20121017-7.2
+ttf-inconsolata 1:2.0.0.1-3
+ttf-indic-otf 0.2-9
+ttf-liberation 2.00.5-2
+ttf-ms-fonts 2.0-10
+ubuntu-keyring 2018.09.18.1-1
+uget 2.2.2-2
+unace 2.5-10
+unrar 1:5.8.5-1
+usb_modeswitch 2.6.0-1
+usbutils 012-2
+util-linux 2.34-8
+vi 1:070224-4
+vim 8.1.2268-2
+vino 3.22.0+60+gd29a4f2-1
+virtualbox 6.1.0-1
+vlc 3.0.8-7
+wallpapers-2018 1.2-1
+wget 1.20.3-2
+which 2.21-5
+wpa_supplicant 2:2.9-3
+xclip 0.13-2
+xdg-su 1.2.3-1
+xdg-user-dirs 0.17-2
+xdg-user-dirs-gtk 0.10+9+g5b7efc6-2
+xdg-utils 1.1.3+18+g0547886-4
+xf86-input-elographics 1.4.2-1
+xf86-input-evdev 2.10.6-1
+xf86-input-keyboard 1.9.0-3
+xf86-input-libinput 0.29.0-1
+xf86-input-mouse 1.9.3-1
+xf86-input-void 1.4.1-4
+xf86-input-wacom 0.38.0-1
+xf86-video-intel 1:2.99.917+899+gf66d3954-1
+xfsprogs 5.3.0-1
+xorg-server 1.20.6-2
+xorg-twm 1.0.10-1
+xorg-xinit 1.4.1-1
+xscreensaver 5.43-1
+xsel 1.2.0.20160929-2
+yajl 2.1.0-2
+yay 9.4.2-1
+yelp 3.34.0-1
+youtube-dl 2019.12.25-1
+zsh 5.7.1-1
