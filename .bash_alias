@@ -1,3 +1,5 @@
+alias please='sudo'
+
 alias py='python'
 alias la='ls -a'
 alias l='ls'
@@ -5,8 +7,40 @@ alias l='ls'
 alias termbin='nc termbin.com 9999'
 alias ydl='youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best''
 
-alias sl='sl -al | lolcat'
+alias sl='sl -al'
+alias LS='sl'
 
-alias xc='xclip -sel clip'
+alias du='du -h'
+alias df='df -kh'
+
+alias pacaur='pacaur --noedit'
+alias yay='yay --nodiffmenu'
+
+alias de='deactivate'
+
 alias iclip='xclip -i'
 alias oclip='xclip -o'
+alias clip='xclip -sel clip'
+alias xc='xclip -sel clip'
+
+# Color picker
+alias colorpick='colorpicker --short --one-shot'
+alias cpclip='colorpicker --short --one-shot | xclip -sel clip'
+
+alias wifi-menu='nmtui'
+
+# vpn
+alias ovpn='sudo openconnect --protocol=nc -u wsoohoo jvpn.olin.edu'
+
+# matlab
+alias mat="matlab -nodesktop -nosplash"
+
+# pls
+alias pls='sudo'
+alias please='sudo'
+alias dog='lolcat'
+
+alias gi='git'
+
+# vim formula
+alias vimf='vim -u ~/.vimrc_avr'
