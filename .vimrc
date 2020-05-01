@@ -98,5 +98,10 @@ set incsearch
 set hlsearch
 
 Plugin 'Shougo/unite.vim'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
+
+
+" Tmux compatibility
+Plugin 'tmux-plugins/vim-tmux-focus-events'
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
