@@ -79,10 +79,15 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
+let g:airline_theme='base16_3024'
+
 set tw=0
 set textwidth=0 wrapmargin=0
 
-colorscheme elflord
+" colorscheme elflord
+Plugin 'chriskempson/base16-vim'
+let base16colorspace=256
+colorscheme base16-3024
 
 set nomodeline  " https://threatpost.com/linux-command-line-editors-high-severity-bug/145569/
 

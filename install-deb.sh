@@ -35,7 +35,7 @@ echo "Updating ssh authorized keys"
 cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
 
 # Terminal packages
-$SUDO apt-get -y install screen terminator powerline
+$SUDO apt-get -y install screen terminator powerline tmux
 
 # Bash config
 cp ~/.bashrc ~/.bashrc.bak
@@ -46,6 +46,10 @@ echo "source ~/.bashrc_wsh" >> ~/.bashrc
 # Screen config
 echo "Updating screenrc config"
 cp ./.screenrc ~/.screenrc
+
+# tmux config
+echo "Updating tmux config"
+cp ./.tmux.conf ~/.tmux.conf
 
 # Vim
 echo "Updating vimrc config"
@@ -85,6 +89,9 @@ then
 fi
 xclip -sel clip ~/.ssh/id_rsa.pub
 echo "SSH key copied to clipboard"
+
+# Base16 theme
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # Important packages for programming lol
 $SUDO apt-get -y install python3 python3-pip python3-dev doxygen
