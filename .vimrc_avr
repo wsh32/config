@@ -79,10 +79,16 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
-set tw=0
-set textwidth=0 wrapmargin=0
+let g:airline_theme='base16_isotope'
+let g:airline_powerline_fonts=1
 
-colorscheme elflord
+" set tw=0
+" set textwidth=0 wrapmargin=0
+
+" colorscheme elflord
+Plugin 'chriskempson/base16-vim'
+let base16colorspace=256
+colorscheme base16-isotope
 
 set nomodeline  " https://threatpost.com/linux-command-line-editors-high-severity-bug/145569/
 
@@ -93,5 +99,10 @@ set incsearch
 set hlsearch
 
 Plugin 'Shougo/unite.vim'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
+
+
+" Tmux compatibility
+Plugin 'tmux-plugins/vim-tmux-focus-events'
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
