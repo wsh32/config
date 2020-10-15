@@ -32,7 +32,8 @@ git pull
 
 # Add SSH keys
 echo "Updating ssh authorized keys"
-cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
+curl -O https://github.com/wsh32.keys -o ~/.ssh/authorized_keys
+# cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
 
 # Terminal packages
 $SUDO apt-get -y install screen terminator powerline tmux

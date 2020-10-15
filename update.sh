@@ -9,11 +9,15 @@ git pull
 
 # update SSH keys
 echo "Updating ssh authorized keys"
-cp ./.ssh/authorized_keys ~/.ssh/authorized_keys
+curl -O https://github.com/wsh32.keys -o ~/.ssh/authorized_keys
 
 # update screen config
 echo "Updating screenrc config"
 cp ./.screenrc ~/.screenrc
+
+# update tmux config
+echo "Updating tmux config"
+cp ./.tmux.conf ~/.tmux.conf
 
 # update vim config
 echo "Updating vimrc config"
