@@ -13,23 +13,20 @@ require("lazy").setup({
     { "chriskempson/base16-vim" },
 })
 
--- vim settings
+vim.cmd([[syntax on]])
 
-vim.cmd([[syntax on]]) -- enable syntax highlighting
-
-vim.g.mapleader = " " -- set leader key to space
+vim.g.mapleader = " "
 
 -- disable netrw
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
-vim.opt.mouse = "a" -- enable mouse support
-vim.opt.hidden = true -- enable buffer switching
+vim.opt.mouse = "a"
+vim.opt.hidden = true
 
 -- disable bells
 vim.opt.errorbells = false
-vim.opt.visualbell = true
--- vim.opt.t_vb = ""
+vim.opt.visualbell = false
 
 -- tab settings
 vim.opt.tabstop = 4
@@ -40,7 +37,6 @@ vim.opt.smarttab = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 
--- self-explanatory settings
 vim.opt.cursorline = true
 vim.opt.wrap = false
 vim.opt.swapfile = false
@@ -62,44 +58,34 @@ if vim.fn.filereadable(vim.fn.expand("~/.vimrc_background")) == 1 then
     vim.cmd([[source ~/.vimrc_background]])
 end
 
--- make things more responsive
 vim.opt.updatetime = 300
 vim.opt.ttimeoutlen = 10
 
--- command window settings
 vim.opt.cmdheight = 1
 vim.opt.shortmess = vim.opt.shortmess + "c"
 
 vim.opt.nrformats = vim.opt.nrformats + "alpha"
 vim.opt.formatoptions = vim.opt.formatoptions + "j"
 
--- show whitespace, tabs, line break, etc.
+-- show whitespace
 vim.opt.list = true
-vim.opt.listchars = [[tab:│\ ,trail:•,extends:❯,precedes:❮,tab:▷▷⋮]]
+vim.opt.listchars = { tab = "▷▷⋮", trail = "•", extends = "❯", precedes = "❮" }
 vim.opt.shiftround = true
 vim.o.showbreak = "↪ "
 
--- searching settings
+-- searching
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-vim.inccommand = "nosplit"
+vim.opt.inccommand = "nosplit"
 
--- number column
 vim.opt.number = true
--- vim.opt.relativenumber = true
--- vim.opt.signcolumn = "number"
--- vim.opt.signcolumn = "auto:3"
 vim.opt.signcolumn = "yes"
 
--- color column
--- vim.opt.colorcolumn = "120"
-
--- don't fold anything when opening file
 vim.opt.foldlevel = 99
 
--- use cpp comment style in c files and cpp files
+-- use // comment style in C/C++
 vim.api.nvim_create_autocmd({ "FileType" }, {
-    pattern = {"cpp", "c"},
+    pattern = { "cpp", "c" },
     command = [[set commentstring=//\ %s]],
 })
